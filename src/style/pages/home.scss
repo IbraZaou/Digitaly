@@ -1,0 +1,22 @@
+.container_home {
+
+    .container_tel {
+        height: 100vh;
+        @include FlexCenterSpaceAround;
+        padding-top: 5rem;
+
+
+        .container_tel_text {
+            h1 {
+                font-size: 48px;
+                width: 724px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 23px;
+
+            }
+        }
+    }
+}
