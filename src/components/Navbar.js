@@ -5,7 +5,7 @@ import LOGO from '../assets/images/Group 1.png';
 const Navbar = () => {
     return (
         <nav>
-            <a href="/"><img src={LOGO} alt="" /></a>
+            <Link to="/"><img src={LOGO} alt="" /></Link>
             <ul>
 
                 <li><Link to="/agence">Agence</Link></li>

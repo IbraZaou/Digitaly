@@ -8,14 +8,47 @@
 
         .container_tel_text {
             h1 {
-                font-size: 48px;
-                width: 724px;
+                font-size: 60px;
+                width: 800px;
                 font-weight: bold;
             }
 
             p {
                 font-size: 23px;
+            }
+        }
+    }
 
+    .container_pdg {
+        background: rgb(33, 62, 106);
+        background: linear-gradient(45deg, rgba(33, 62, 106, 1) 0%, rgba(37, 60, 92, 1) 15%, rgba(33, 49, 71, 1) 50%, rgba(37, 60, 92, 1) 85%, rgba(33, 62, 106, 1) 100%);
+        height: 400px;
+        width: 100%;
+        @include FlexCenterSpaceAround;
+        box-shadow: inset 0 -5px 5px -5px rgba(0, 0, 0, 0.75);
+
+        .container_pdg_img {
+            width: 600px;
+            height: 492px;
+            position: relative;
+            top: -46px;
+        }
+
+        .container_pdg_text {
+            font-size: 24px;
+
+            p {
+                width: 731px;
+            }
+
+            .container_pdg_text_fonction {
+                text-align: end;
+                display: flex;
+                flex-direction: column;
+
+                span:first-child {
+                    font-weight: bold;
+                }
             }
         }
     }
