@@ -1,6 +1,7 @@
 import React from 'react';
 import TEL from '../assets/images/Phone + effect.png';
 import MEHDI from '../assets/images/homme_chemise-removebg-preview 1.png';
+import CardService from '../components/CardService';
 
 
 const Home = () => {
@@ -28,6 +29,19 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+
+            {/* Nos services digitaux */}
+            <div className="container_services_digitaux">
+                <h2>NOS SERVICES DIGITAUX</h2>
+
+                <div className="container_services_digitaux_cards">
+                    <CardService />
+                </div>
+
+            </div>
+
+
         </div>
     );
 };

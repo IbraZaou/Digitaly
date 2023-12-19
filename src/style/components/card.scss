@@ -1,0 +1,47 @@
+.container_services_digitaux {
+    margin-top: 10rem;
+
+    h2 {
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .container_services_digitaux_cards {
+        height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            margin: 1rem;
+            width: 381px;
+            height: 300px;
+            border-radius: 20px;
+            background: rgb(102, 145, 209);
+            background: linear-gradient(45deg, rgba(102, 145, 209, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(102, 145, 209, 1) 100%);
+
+            img,
+            p {
+                margin: 1rem;
+            }
+
+            p {
+                color: #1F324E;
+                font-size: 24px;
+                width: 281px;
+                margin: 2rem;
+            }
+        }
+    }
+}
+
+
+
+//CardService
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
